@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ MIT License
+  ~
+  ~ Copyright (c) 2024 Gourav Khunger
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  -->
+
+<resources>
+    <string name="app_name">JekyllEx</string>
+    <string name="back_button">Назад</string>
+    <string name="share_text">
+        Привет, оцени JekyllEx — мобильную IDE для Jekyll-сайтов. Она бесплатна и с открытым исходным кодом!
+        https://jekyllex.xyz
+    </string>
+
+    <string name="process_notifications">Уведомления процесса</string>
+    <string name="process_notifications_id">process_notifications</string>
+    <string name="process_notifications_desc">Уведомления системной службы процессов</string>
+    <string name="notification_text_title">Мост процессов</string>
+    <string name="notification_text_waiting">Ожидание команды…</string>
+    <string name="notification_action_kill">Завершить процесс</string>
+    <string name="notification_action_stop">Остановить службу</string>
+
+    <string name="installer_title">Установка начального архива…</string>
+    <string name="installer_subtitle">
+        Это может занять несколько минут.
+        Вы можете закрыть приложение и вернуться позже,
+        но, пожалуйста, не удаляйте приложение из истории.
+    </string>
+
+    <string name="bootstrap_setting_title">Исправить бинарные файлы</string>
+    <string name="bootstrap_setting_summary">
+        Попытка переустановить встроенные бинарные файлы (ruby, coreutils, gems и т.д.), если они отсутствуют
+        или повреждены.
+    </string>
+
+    <string name="trim_logs_title">Обрезать логи</string>
+    <string name="trim_logs_summary">
+        Попытка сократить вывод команд, чтобы избежать чрезмерного размера логов в текущей сессии.
+    </string>
+
+    <string name="reduce_animations_title">Уменьшить анимации</string>
+    <string name="reduce_animations_summary">
+        Пропускать отображение деталей файлов/папок на главном экране.
+    </string>
+
+    <string name="preview_port_title">Порт для предпросмотра</string>
+    <string name="preview_port_summary">
+        Номер порта localhost для загрузки во вкладке предпросмотра.
+    </string>
+
+    <string name="git_name_title">Имя</string>
+    <string name="git_name_summary">
+        Глобальное имя для операций git.
+    </string>
+
+    <string name="git_email_title">Эл. почта</string>
+    <string name="git_email_summary">
+        Глобальный эл. почта для операций git.
+    </string>
+
+    <string name="github_pat_title">Токен доступа GitHub</string>
+
+    <string name="log_progress_title">Логировать прогресс</string>
+    <string name="log_progress_summary">
+        Добавлять \"--progress\" к возможным командам git.
+    </string>
+
+    <string name="local_gems_title">Предпочитать локальные gem\'ы</string>
+    <string name="local_gems_summary">
+        Предпочитать установленные gem\'ы последним версиям при выполнении \"bundle install\".
+        Отключение этой опции нарушит установку gem\'ов с нативными расширениями.
+        При необходимости укажите конкретную версию gem\'а в Gemfile.
+    </string>
+
+    <string name="skip_bundler_title">Пропустить bundle install</string>
+    <string name="skip_bundler_summary">
+        Избегать выполнения \"bundle install\" для новых проектов. Использует флаг \"--skip-bundle\".
+    </string>
+
+    <string name="prefix_bundler_title">Префикс bundler</string>
+    <string name="prefix_bundler_summary">
+        Добавлять префикс \"bundle exec\" к команде jekyll serve
+    </string>
+
+    <string name="livereload_title">Живая перезагрузка</string>
+    <string name="livereload_summary">
+        Включить живую перезагрузку при выполнении команды jekyll serve. Автоматически добавляет
+        \"-l\" к команде \"jekyll serve\".
+    </string>
+
+    <string name="jekyll_env_title">Окружение</string>
+    <string name="jekyll_env_summary">
+        Значение для переменной окружения JEKYLL_ENV
+    </string>
+
+    <string name="guess_urls_title">Угадывать URL назначения</string>
+    <string name="guess_urls_summary">
+        Пытаться угадать URL-адрес назначения для файлов и загружать его во вкладке предпросмотра.
+        В противном случае всегда загружать главную страницу.
+    </string>
+
+    <string name="jekyll_flags_title">Дополнительные флаги</string>
+    <string name="jekyll_flags_summary">
+        Список дополнительных флагов, разделенных пробелами, для передачи команде \"jekyll serve\".
+    </string>
+
+    <string name="debounce_setting_title">Задержка редактора</string>
+    <string name="debounce_setting_summary">
+        Время ожидания перед сохранением изменений в редактируемом файле (задержка сохранения).
+    </string>
+
+    <string name="theme_setting_title">Цветовая тема</string>
+
+    <string name="docs">Документация</string>
+    <string name="report">Сообщить о проблеме</string>
+    <string name="licenses">Лицензии</string>
+    <string name="privacy_policy">Политика конфиденциальности</string>
+    <string name="terms_and_conditions">Условия использования</string>
+</resources>
